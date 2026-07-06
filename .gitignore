@@ -1,6 +1,6 @@
 # The /lake-manifest.json file is automatically regenerated 
 # whenever the lakefile.toml file or the lean-toolchain file is changed.
-/lake-manifest.json
+#/lake-manifest.json
 
 # The .lake directory contains the .olean binaries (about 7 gig!)
 /.lake
