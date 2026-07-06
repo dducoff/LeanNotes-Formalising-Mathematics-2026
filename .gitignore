@@ -1,0 +1,18 @@
+# The /lake-manifest.json file is automatically regenerated 
+# whenever the lakefile.toml file or the lean-toolchain file is changed.
+/lake-manifest.json
+
+# The .lake directory contains the .olean binaries (about 7 gig!)
+/.lake
+
+# .DS_Store is an Macos artifact
+.DS_Store
+
+# The zSkunkworks directory contains reference files not meant for publication.
+# Normally we would use the following directive: /zSkunkworks
+# but this would disable listing this directory in the vsCode explorer,
+# so we manually prepend to the the git -add command as follows:
+# git add --all -- ':!zSkunkworks/*'
+# which explicitly excludes the directory (recursively) from the add command.
+
+#/zSkunkworks
